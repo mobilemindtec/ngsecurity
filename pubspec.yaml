@@ -1,23 +1,23 @@
 name: ngsecurity
-version: 7.1.0
+version: 8.0.0
 description: >-
   The missing security library since Angular v7.
 repository: https://github.com/angulardart-community/ngsecurity
 environment:
-  sdk: '>=2.17.0 <3.0.0'
+  sdk: '>=3.0.0 <4.0.0'
 
 dependencies:
-  ngdart: ^7.1.0
-  build: ^2.1.1
+  ngdart: 8.0.0-dev.4
+  build: ^2.4.1
   build_config: '>=0.2.6 <2.0.0' # Runtime dependency with no import
-  code_builder: ^4.1.0
-  csslib: ^0.17.0
-  path: ^1.6.1
-  source_gen: ^1.1.1
-  source_span: ^1.4.0
+  code_builder: ^4.10.0
+  csslib: ^1.0.0
+  path: ^1.9.0
+  source_gen: ^1.5.0
+  source_span: ^1.10.0
 dev_dependencies: 
-  ngtest: ^4.1.0
-  build_runner: ^2.1.4
-  build_test: ^2.1.4
-  build_web_compilers: ^3.2.1
-  meta: ^1.7.0
+  ngtest: 5.0.0-dev.3
+  build_runner: ^2.4.8
+  build_test: ^2.2.2
+  build_web_compilers: ^4.0.9
+  meta: ^1.11.0
